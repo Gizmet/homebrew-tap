@@ -9,9 +9,7 @@ class Ghstats < Formula
   depends_on "python@3.9"
 
   def install
-    # Install dependencies first
-    system "python3", "-m", "pip", "install", *std_pip_args, "-r", "requirements.txt"
-    # Then install the package
+    # Install the package with dependencies
     system "python3", "-m", "pip", "install", *std_pip_args, "."
   end
 
