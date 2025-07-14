@@ -2,7 +2,7 @@ class Ghstats < Formula
   desc "GitHub contribution heatmap viewer for terminal"
   homepage "https://github.com/Gizmet/github-contribution-heatmap-viewer"
   url "https://github.com/Gizmet/github-contribution-heatmap-viewer/archive/v1.0.0.tar.gz"
-  sha256 "12c92eb0906673bd1307c335ba4d5b1a79407663d3b797f93f78d0569486c983"
+  sha256 "df9f51bfb4e1b001f3c795d28bae03273e1bb70e1ddcba8893bd16e763392b4"
   license "MIT"
   head "https://github.com/Gizmet/github-contribution-heatmap-viewer.git", branch: "master"
 
